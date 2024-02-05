@@ -15,9 +15,9 @@ import java.util.concurrent.TimeUnit;
 @SpringBootApplication
 public class DemoservicebusApplication {
 
-	static String connectionString = "Endpoint=sb://pricesmart-pos-dev2.servicebus.windows.net/;SharedAccessKeyName=vlinero;SharedAccessKey=7CndgfwVMzKUo5Rr6wCHw3pwicc1HVsq4+ASbMnb87c=";
-    static String topicName = "tgcp.transactions.complete";
-    static String subName = "tlogtest";
+	static String connectionString = "";
+    static String topicName = "";
+    static String subName = "";
 
 
 
